@@ -22,6 +22,7 @@ I am driven by the desire to get a new profession.
 - Git
 - Figma
 - Photoshop
+- Tilda
 
 ### Code example
 
