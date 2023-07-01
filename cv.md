@@ -5,7 +5,7 @@
 - Location: Gdańsk, Poland
 - Phone: +48 510 535 204
 - Email: alexandrachkouskaya@gmail.com
-- GitHub: [Rachkovskaia](https://github.com/Rachkovskaia)
+- GitHub: [MioSunny](https://github.com/MioSunny)
 - Behance: [Behance](https://www.behance.net/alexandrachkou)
 
 ### About me
