@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="ru">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,39 +10,191 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    >
+      rel="stylesheet">
   </head>
-  <body>
-    <div class="wrapper">
-      <main>
+  <div class="wrapper">
+    <main>
+      <header>
+        <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+        </ul>
+      </nav>
+    </header>
         <div class="main-description">
-          <h2 class="job_title">Front-End Developer</h2>
-          <h1>Aleksandra Rachkovskaia</h1>
+            
+            <h1>Aleksandra Rachkovskaia</h1>
+            <h2 class="job_title">Front-End Developer</h2>
+
+            <p class="description">
+              I'm just getting started with web development. This is a new and exciting experience. It's hard for me to study, but I do it for my future. Overcoming difficulties, I value my work, experience and time. I am driven by the desire to get a new profession.
+            </p>
         </div>
         <div class="projects">
-          <h2>Projects</h2>
+            <h2>Projects</h2>
+            <ol class="list_primary">
+                <li>
+                    <a
+                        href="hhttp://lana-psy.by"
+                        class="a_main"
+                        >http://lana-psy.by</a
+                    ><span class="a_main">.........</span>[<span class="a_main"> Tilda, Figma </span>]
+                </li>
+            
+            </ol>
+        </div>
+      <div class="work_experience">
+        <div>
+            <h2 id="experience">Experience</h2>
+            <h3 class="job_name">Co-author of “Assistant in the treatment of drug-resistant tuberculosis”  <span class="highlight">Minsk, 2019</span></h3>
+            <h3 class="job_name">Compiler/designer “Workbook. Assistant in the treatment of drug-resistant tuberculosis» <span class="highlight">Minsk, 2019</span></h3>
+            <p class="job_date">September, 2019</p>
+        </div>
+        
+    </div>
+        <div>
+            <h2 id="education">Education</h2>
+            <h3 class="highlight">European Humanitarian University (bachelor)</h3>
+            <h4 class="management">Tourism and cultural heritage</h4>
+            <p class="job_date">2007 - 2011 | Lithuania, Vilnius</p>
+            <h3 class="highlight">Belarusian State Pedagogical University Named After Maxim Tank</h3>
+            <h4 class="management">Psychologist</h4>
+            <p class="job_date">2013 - 2015 | Belarus, Minsk</p>
         </div>
         <div class="work_experience">
           <div>
-            <h2>Work Experience</h2>
+              <h2>Courses:</h2>
+              <ul class="job_list">
+                  <li>
+                    IT Fundamentalsm (EPAM)
+                  </li>
+                  <li>
+                    Computer Science Basics (EPAM)
+                  </li>
+                  <li>
+                    FreeCodeCamp Basic JavaScrip
+                  </li>
+                  <li>
+                    Code-basics: JavaScript HTML CSS
+                  </li>
+                  <li>
+                    Minimalistic Web design (Design studio Yan Ageenko)
+                  </li>
+              </ul>
           </div>
-        </div>
-        <div>
-          <h2>Education</h2>
-        </div>
-      </main>
-      <aside>
+          <div class="work_experience">
+            <div>
+                <h2>Languages:</h2>
+                <ul class="job_list">
+                    <li>
+                      Russian (native)
+                    </li>
+                    <li>
+                      English (A2 - B1)
+                    </li>
+                    <li>
+                      Polish (A2-B1)
+                    </li>
+                </ul>
+            </div>
+            <div class="work_experience">
+              <div>
+                  <h2>Code example:</h2>
+                <code class="description">function chainToSwitch(val) { <br/>
+                  let answer = ""; <br/>
+                 switch (val) { <br/>
+                    case "bob": <br/>
+                    answer = "Marley"; <br/>
+                    break; <br/>
+                  case 42: <br/>
+                    answer = "The Answer"; <br/>
+                    break; <br/>
+                  case 1: <br/>
+                    answer = "There is no #1"; <br/>
+                    break; <br/>
+                  case 99: <br/>
+                    answer = "Missed me by this much!"; <br/>
+                    break; <br/>
+                  case 7: <br/>
+                    answer = "Ate Nine"; <br/>
+                  } <br/>
+                  return answer; <br/>
+                }</code>
+              </div>       
+    </main>
+    
+    <aside>
+        <img
+            class="CV_photo"
+            src="./img/photo.jpg"
+            width="370"
+            height="370"
+            alt="CV_photo"
+        />
         <div class="contact_block">
-          <h2 class="header_secondary">Contacts</h2>
+            <h2 class="header_secondary">Contacts</h2>
+            <p>
+                <span class="bold">C: </span>:<a
+                    href="tel:+48 510 535 204"
+                    class="a_aside"
+                    >+48 510 535 204</a
+                >
+                <br />
+                <span class="bold">E: </span>:<a
+                    href="tipa.top@gmail.com"
+                    class="a_aside"
+                    >tipa.top@gmail.com</a
+                >
+                <br />
+            <span class="bold">Location: </span><span class="a_aside">Gdansk, Poland</span> 
+            <br />
+            <span class="bold">GitHub: </span>:<a
+                    href="https://github.com/MioSunny"
+                    class="a_aside"
+                    >MioSunny</a
+                >
+                <br />
+                <span class="bold">Behance: </span>:<a
+                    href="https://www.behance.net/alexandrachkou"
+                    class="a_aside"
+                    >Aleksandra Rachkowskaia</a
+                >
+            </p>
         </div>
         <div class="tech_Skills_block">
-          <h2 class="header_secondary">Tech Skills</h2>
+            <h2 class="header_secondary">Tech Skills</h2>
+            <ul class="list_secondary">
+                <li><span class="list_secondary_item">HTML5</span></li>
+                <li><span class="list_secondary_item">CSS3</span</li>
+                <li><span class="list_secondary_item">GIT</span></li>
+                <li><span class="list_secondary_item">JavaScript</span></li>
+                <li><span class="list_secondary_item">Figma</span></li>
+                <li><span class="list_secondary_item">Tilda</span></li>
+            </ul>
         </div>
         <div class="soft_skils_block">
-          <h2 class="header_secondary">Soft Skills</h2>
+            <h2 class="header_secondary">Soft Skills</h2>
+            <ul class="list_secondary">
+                <li><span class="list_secondary_item">Multitasking</span></li>
+                <li><span class="list_secondary_item">Empathy</span></li>
+                <li><span class="list_secondary_item">GTD</span></li>
+                <li><span class="list_secondary_item">Teamwork</span></li>
+            </ul>
         </div>
-      </aside>
-    </div>
-  </body>
+    </aside>  
+</div>
+<footer class="footer">
+  <a class="footer_logo_block" href="https://rs.school/js/"><img src="./img/rs_school_js.svg"
+  alt="logo_rs_school"
+  width="60"
+  height="40"></a>
+  <h4 class="management footer_logo_block">2023</h4>
+  <a class="footer_logo_block" href="https://github.com/MioSunny"><img src="./img/github.svg.png"
+    alt="logo_github"
+    width="50"
+    height="50"></a>
+  </div>
+</footer>
+</body>
 </html>
