@@ -1,0 +1,94 @@
+.section{
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+    }
+    .line{
+    width: 50px;
+    height: 1px;
+    background-color: #0C0C0E;
+    align-items: center;
+    margin-top: 20px;
+    
+    }
+    h3 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    margin-top: 40px;
+    margin-bottom: 0;
+    }
+    .about{
+        height: 837px;
+    }
+    .about-img{
+        display: flex;
+       justify-content: space-between;
+        margin-left: 20px;
+        margin-top: 18px;
+    }
+    
+    .photo{
+        margin-right: 20px;
+    }
+    .pagination-1{
+            height: 16px;
+            width: 16px;
+           margin-right: 5px;
+            background-color: #BB945F;
+            border-radius: 50%;
+            display: inline-block;
+           margin-top: 40px;
+           cursor: pointer;
+           transition: all .05s ease-in-out;
+    }
+    .pagination-1:hover{
+       
+        background-color: #000;
+        
+       
+    }
+    .pagination-2{
+        height: 16px;
+        width: 16px;
+        background-color: #000;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 5px;
+        margin-left: 5px;
+       
+        margin-top: 40px;
+        cursor: pointer;
+        transition: all .05s ease-in-out;
+    }
+    .pagination-2:hover{
+       
+        background-color: #BB945f;
+    }
+    .pagination-3{
+        height: 16px;
+        width: 16px;
+        background-color: #000;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 5px;
+        margin-top: 40px;
+        cursor: pointer;
+        transition: all .05s ease-in-out;
+    }
+    .pagination-3:hover{
+       
+        background-color: #BB945f;
+    }
