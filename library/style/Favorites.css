@@ -60,16 +60,13 @@ font-weight: 400;
 line-height: normal;
 cursor: pointer;
 padding-top: 40px;
-padding-left: 20px;
-
-
+padding-left: 17px;
    }
-
+   
    input:checked + label {
     font-weight: 700;
    }
 
-    
    input:checked:after{
  
     width: 10px;
@@ -117,19 +114,22 @@ position: absolute;
   
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
     margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 60px;
 }
-  .rectangle{
+  .rectangle-1{
     
     height: 553px;
   width: 548px;
   padding: 0;
  border: 1px solid #000;
 background: #FFF;
-margin-left: 20px;
-margin-right: 20px;
+
+
   }
    
   .h5-uppercase{
@@ -173,7 +173,7 @@ text-transform: capitalize;
     margin-left: 19px;
     margin-bottom: 0;
     padding: 0;
-    width: 355px;
+    width: 357px;
     height: 320px;
     color: #000;
 font-family: Inter;
@@ -183,6 +183,13 @@ font-weight: 400;
 line-height: 40px; /* 266.667% */
 letter-spacing: 2px;
 text-transform: capitalize;
+  }
+  .book-1{
+    position: absolute;
+    z-index: 1;
+    margin-top: 255px;
+    margin-left: 389px;
+
   }
   .button-buy{
     position: absolute;
@@ -204,3 +211,52 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 1px;
   }
+  .rectangle-2{
+    
+    height: 553px;
+  width: 548px;
+  padding: 0;
+ border: 1px solid #000;
+background: #FFF;
+
+  }
+  .rectangle-3{
+    margin-top: 40px;
+    height: 553px;
+  width: 548px;
+  padding: 0;
+ border: 1px solid #000;
+background: #FFF;
+
+  }
+  .rectangle-4{
+    
+    height: 553px;
+  width: 548px;
+  padding: 0;
+  margin-top: 40px;
+ border: 1px solid #000;
+background: #FFF;
+
+  }
+  .button-own{
+    position: absolute;
+    z-index: 1;
+    margin-top: 509px;
+    margin-left: 19px;
+
+    width: 75px;
+height: 30px;
+border-radius: 2px;
+background-color: #FFF;
+border: 1px solid #BB945F;;
+    color: #BB945F;;
+text-align: center;
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+  }
+  
