@@ -3,6 +3,7 @@
 @import url(Header.css);
 @import url(Favorites.css);
 @import url(CoffeeShop.css);
+@import url(OurContacts.css);
 body{
     position: relative;
     height: auto;
