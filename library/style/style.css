@@ -2,6 +2,7 @@
 @import url(Welcome.css);
 @import url(Header.css);
 @import url(Favorites.css);
+@import url(CoffeeShop.css);
 body{
     position: relative;
     height: auto;
