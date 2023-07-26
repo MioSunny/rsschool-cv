@@ -210,6 +210,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 1px;
+transition: all .05s ease-in-out;
   }
   .rectangle-2{
     
@@ -218,6 +219,12 @@ letter-spacing: 1px;
   padding: 0;
  border: 1px solid #000;
 background: #FFF;
+cursor: pointer;
+
+  }
+  .button-buy:hover{
+    color: #BB945F;
+    border-color: #BB945F;
 
   }
   .rectangle-3{

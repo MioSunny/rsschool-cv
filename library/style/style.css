@@ -4,6 +4,8 @@
 @import url(Favorites.css);
 @import url(CoffeeShop.css);
 @import url(OurContacts.css);
+@import url(cards.css);
+@import url(footer);
 body{
     position: relative;
     height: auto;

@@ -1,0 +1,223 @@
+.cards{
+    display: flex;
+align-items: flex-start;
+flex-wrap: nowrap;
+justify-content: space-between;
+flex-direction: row;
+margin-top: 40px;
+margin-left: 20px;
+margin-right: 20px;
+}
+.text{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: row;
+    margin:0;
+    padding: 0;
+    height: 71px;
+}
+.section-cards{
+    color: #0C0C0E;
+        font-family: Forum;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px; /* 100% */
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        text-align: center;
+        padding-top: 57px;
+        margin-top: 0;
+        margin-bottom: 0;
+}
+.cards-text{
+    color: #000;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.6px;
+margin-left: 158px;
+margin-top: 31px;
+}
+.cards{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+.form-cards-1{
+    height: 380px;
+    width: 594px;
+    padding: 0;
+    border: 3px solid #BB945F;
+background: #FFF;
+
+}
+.form-color{
+    width: 560px;
+height: 272px;
+background-color: #BB945F;
+margin-left: 17px;
+margin-top: 17px;
+}
+.form-text{
+    color: #000;
+font-family: Forum;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 50px; /* 166.667% */
+letter-spacing: 0.6px;
+
+margin-top:0;
+margin-left: 20px;
+padding-top: 20px;
+text-align: left;
+}
+.input-cards{
+    color: #8E8E8E;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+    width: 520px;
+height: 66px;
+border-radius: 10px;
+border: #FFF;
+background-color: #FFF;
+padding: 0;
+margin-top: 20px;
+margin-left: 20px;
+
+
+}
+.input-cards::placeholder{
+    padding-left: 20px;
+
+}
+.input-cards-1{
+    color: #8E8E8E;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+    width: 520px;
+height: 66px;
+border-radius: 10px;
+border: #FFF;
+background-color: #FFF;
+padding: 0;
+margin-top: 25px;
+margin-left: 20px;
+
+}
+.input-cards-1::placeholder{
+    padding-left: 20px;
+
+}
+.input-submit{
+    color: #0C0C0E;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+border: 1px solid #0C0C0E; 
+border-radius: 2px;
+background-color: #FFF;
+height: 44px;
+width: 242px;
+margin-top: 45px;
+margin-left: 159px;
+padding: 0;
+cursor: pointer;
+transition: all .05s ease-in-out;
+}
+.input-submit:hover{
+    color: #BB945F;
+    border-color: #BB945F;
+}
+.cards-text-forum{
+    color: #000;
+text-align: center;
+font-family: Forum;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.6px;
+    margin-right: 20px;
+    margin-top: 31px;
+}
+.get-card{
+    color: #000;
+text-align: right;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 0.4px;
+margin: 0;
+}
+.box-get-card{
+    width: 456px;
+    height: 120px;
+ 
+}
+.button{
+    position: absolute;
+    z-index: 1;  
+   margin-left: 1246px;
+   margin-top: 157px;
+
+}
+.sing-up{
+   
+    width: 75px;
+height: 30px;
+border-radius: 2px;
+border: 1px solid #0C0C0E;
+cursor: pointer;
+background-color: #FFF;
+margin-right: 16px;
+margin-left: -16px;
+padding: 0;
+transition: all .05s ease-in-out;
+}
+.sing-up:hover{
+    color: #BB945F;
+    border-color: #BB945F;
+}
+
+
+.log-in{
+    width: 75px;
+height: 30px;
+border-radius: 2px;
+border: 1px solid #0C0C0E;
+cursor: pointer;
+background-color: #FFF;
+padding: 0;
+margin-left: 0px;
+transition: all .05s ease-in-out;
+}
+.log-in:hover{
+    color: #BB945F;
+    border-color: #BB945F;
+}
