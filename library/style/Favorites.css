@@ -33,8 +33,6 @@ margin-top: 38px;
         
     }
     .custom-radio{
-       
-       
         display: inline-block;
         cursor: pointer;
         width: 15px;
@@ -63,11 +61,16 @@ padding-top: 40px;
 padding-left: 17px;
    }
    
-   input:checked + label {
+   .custom-radio-1:checked + label {
+ 
+    
     font-weight: 700;
+    outline-color: #000;
+
    }
 
-   input:checked:after{
+   .custom-radio-1:checked:after{
+  
  
     width: 10px;
     height: 10px;
@@ -110,7 +113,7 @@ position: absolute;
     margin-left: 19px;
     margin-bottom: 0;
   }
-.favorites{
+.favorites-winter{
   
     display: flex;
     align-items: flex-start;
@@ -196,7 +199,6 @@ text-transform: capitalize;
     z-index: 1;
     margin-top: 509px;
     margin-left: 19px;
-
     width: 75px;
 height: 30px;
 border-radius: 2px;
@@ -210,6 +212,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 1px;
+cursor: pointer;
 transition: all .05s ease-in-out;
   }
   .rectangle-2{
@@ -223,8 +226,9 @@ cursor: pointer;
 
   }
   .button-buy:hover{
-    color: #BB945F;
+    color: #000;
     border-color: #BB945F;
+    background-color: #BB945F;
 
   }
   .rectangle-3{
@@ -266,4 +270,36 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 1px;
   }
+  .favorites-spring{
   
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+.favorites-summer{
+  
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 60px;
+}
+.favorites-autumn{
+  
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 60px;
+}

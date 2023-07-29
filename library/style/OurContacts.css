@@ -42,7 +42,7 @@
     padding-left: 8px;
 } 
 .rectangle-contacts-1 a:hover{
-    background: #BB945F;
+    color: #BB945F;
 }
 .contacts-text-bold{
     color: #000;
@@ -67,19 +67,6 @@
     letter-spacing: 2px;
     text-transform: capitalize;
     margin-top: 41px;
-}
-.contacts-text-bold-3{
-    color: #000;
-    text-align: left;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 40px; /* 200% */
-    letter-spacing: 2px;
-    text-transform: capitalize;
-    margin-top: 41px;
-    margin-left: 8px;
 }
 .contacts-text-1{
     color: #000;

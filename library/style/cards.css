@@ -7,6 +7,7 @@ flex-direction: row;
 margin-top: 40px;
 margin-left: 20px;
 margin-right: 20px;
+height: 427px;
 }
 .text{
     display: flex;
@@ -146,7 +147,7 @@ margin-top: 45px;
 margin-left: 159px;
 padding: 0;
 cursor: pointer;
-transition: all .05s ease-in-out;
+transition: all .03s ease-in-out;
 }
 .input-submit:hover{
     color: #BB945F;

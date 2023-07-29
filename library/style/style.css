@@ -5,16 +5,34 @@
 @import url(CoffeeShop.css);
 @import url(OurContacts.css);
 @import url(cards.css);
-@import url(footer);
+@import url(footer.css);
 body{
     position: relative;
     height: auto;
     margin: 0;
     width: 1440px;
     max-width: 1440px;
+   
 }
-.wrapper{
+.wrap{
     width: 1440px;
     max-width: 1440px;
     margin: 0 auto;
+    
 }
+@keyframes smoothscroll1 {
+    from, to { scroll-behavior: smooth; }
+  }
+  
+  @keyframes smoothscroll2 {
+    from, to { scroll-behavior: smooth; }
+  }
+  
+  html {
+    animation: smoothscroll1 1s;
+  }
+  
+  html:focus-within {
+    animation-name: smoothscroll2;
+    scroll-behavior: smooth;
+  }
