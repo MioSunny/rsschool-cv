@@ -1,0 +1,421 @@
+.section-coffee{
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 0;
+    }
+    .h3-coffee{
+        display: block;
+        height: 120px;
+        width: 1400px;
+        margin-top: 38px;
+        padding-left: 18px;
+        color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+
+    }
+    .coffee-tea-wrapper{
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .coffee-tea-menu{
+        height: 520px;
+        width: 438px;
+   
+
+    }
+    .desserts-cakes-menu{
+        height: 520px;
+        width: 550px;
+      
+
+    }
+    
+
+    .CoffeeTea{
+        color: #BB945F;
+font-family: Forum;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 100% */
+letter-spacing: 2px;
+text-transform: capitalize;
+margin: 0;
+padding-bottom: 20px;
+    }
+    .desserts-cakes{
+        color: #BB945F;
+font-family: Forum;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 100% */
+letter-spacing: 2px;
+text-transform: capitalize;
+margin: 0;
+padding-bottom: 20px;
+padding-right: 20px;
+text-align: right;
+    }
+    .desserts-cakes-list-1{
+
+            color: #000;
+           font-family: Inter;
+           font-size: 20px;
+           font-style: normal;
+           font-weight: 400;
+           line-height: 40px; /* 200% */
+           letter-spacing: 2px;
+           text-transform: capitalize;
+           padding-top: 20px;
+           padding-bottom: 20px;
+           margin: 0;
+           text-align: right;  
+           margin-right: 270px;  
+               
+    }
+    .coffee-tea-menu-list-1{
+ color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+padding-top: 20px;
+padding-bottom: 20px;
+margin: 0;
+text-align: left;    
+    }
+    .coffee-tea-menu-price-1{
+        position: absolute;
+        z-index: 1;
+        color: #000;
+font-family: Forum;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+text-align: right;
+margin-top: 79px;
+margin-left: 417px;
+
+    }
+    .coffee-tea-menu-price-2{
+        position: absolute;
+        z-index: 1;
+        color: #000;
+font-family: Forum;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+text-align: right;
+margin-left: 417px;
+margin-top: 159px;
+
+    }
+    .coffee-tea-menu-price-3{
+        position: absolute;
+        z-index: 1;
+        color: #000;
+font-family: Forum;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+text-align: right;
+margin-left: 417px;
+margin-top: 239px;
+
+    }
+    .coffee-tea-menu-price-4{
+        position: absolute;
+        z-index: 1;
+        color: #000;
+font-family: Forum;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+text-align: right;
+margin-left: 417px;
+margin-top: 320px;
+
+    }
+    .coffee-tea-menu-price-5{
+        position: absolute;
+        z-index: 1;
+        color: #000;
+font-family: Forum;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+text-align: right;
+margin-left: 417px;
+margin-top: 399px;
+
+    }
+    .coffee-tea-menu-price-6{
+        position: absolute;
+        z-index: 1;
+        color: #000;
+font-family: Forum;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+text-align: right;
+margin-left: 417px;
+margin-top: 480px;
+
+    }
+    .desserts-cakes-menu-price-1{
+        position: absolute;
+        z-index: 1;
+        color: #000;
+font-family: Forum;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+text-align: right;
+margin-top: 79px;
+margin-left: 499px;
+
+
+}
+    .desserts-cakes-menu-price-2{
+        position: absolute;
+        z-index: 1;
+        color: #000;
+font-family: Forum;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+text-align: right;
+margin-left: 499px;
+margin-top: 159px;
+    }
+    .desserts-cakes-menu-price-3{
+        position: absolute;
+        z-index: 1;
+        color: #000;
+font-family: Forum;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+text-align: right;
+margin-left: 499px;
+margin-top: 239px;
+
+    }
+    .desserts-cakes-menu-price-4{
+        position: absolute;
+        z-index: 1;
+        color: #000;
+font-family: Forum;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+text-align: right;
+margin-left: 499px;
+margin-top: 320px;
+    }
+    .desserts-cakes-menu-price-5{
+        position: absolute;
+        z-index: 1;
+        color: #000;
+font-family: Forum;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+text-align: right;
+margin-left: 499px;
+margin-top: 399px;
+    }
+    .desserts-cakes-menu-price-6{
+        position: absolute;
+        z-index: 1;
+        color: #000;
+font-family: Forum;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+text-align: right;
+margin-left: 501px;
+margin-top: 480px;
+
+    }
+    .coffee-tea-menu-line-1{
+        position: absolute;
+        z-index: 1;
+    width: 100px;
+    height: 1px;
+    background-color: #BB945F;
+    align-items: center;
+    margin-top: 98px;
+    margin-left: 255px;
+    }
+    .coffee-tea-menu-line-2{
+        position: absolute;
+        z-index: 1;
+    width: 100px;
+    height: 1px;
+    background-color: #BB945F;
+    align-items: center;
+    margin-top: 178px;
+    margin-left: 255px;
+    }
+    .coffee-tea-menu-line-3{
+        position: absolute;
+        z-index: 1;
+    width: 100px;
+    height: 1px;
+    background-color: #BB945F;
+    align-items: center;
+    margin-top: 258px;
+    margin-left: 255px;
+    }
+    .coffee-tea-menu-line-4{
+        position: absolute;
+        z-index: 1;
+    width: 100px;
+    height: 1px;
+    background-color: #BB945F;
+    align-items: center;
+    margin-top: 338px;
+    margin-left: 255px;
+    }
+    .coffee-tea-menu-line-5{
+        position: absolute;
+        z-index: 1;
+    width: 100px;
+    height: 1px;
+    background-color: #BB945F;
+    align-items: center;
+    margin-top: 418px;
+    margin-left: 255px;
+    }
+    .coffee-tea-menu-line-6{
+        position: absolute;
+        z-index: 1;
+    width: 100px;
+    height: 1px;
+    background-color: #BB945F;
+    align-items: center;
+    margin-top: 498px;
+    margin-left: 255px;
+    }
+    .desserts-cakes-menu-line-1{
+        position: absolute;
+        z-index: 1;
+    width: 100px;
+    height: 1px;
+    background-color: #BB945F;
+    align-items: center;
+    margin-top: 98px;
+    margin-left: 340px;
+    }
+    .desserts-cakes-menu-line-2{
+        position: absolute;
+        z-index: 1;
+    width: 100px;
+    height: 1px;
+    background-color: #BB945F;
+    align-items: center;
+    margin-top: 178px;
+    margin-left: 340px;
+
+    }
+    .desserts-cakes-menu-line-3{
+        position: absolute;
+        z-index: 1;
+    width: 100px;
+    height: 1px;
+    background-color: #BB945F;
+    align-items: center;
+    margin-top: 258px;
+    margin-left: 340px;
+    }
+    .desserts-cakes-menu-line-4{
+        position: absolute;
+        z-index: 1;
+    width: 100px;
+    height: 1px;
+    background-color: #BB945F;
+    align-items: center;
+    margin-top: 338px;
+    margin-left: 340px;
+    }
+    .desserts-cakes-menu-line-5{
+        position: absolute;
+        z-index: 1;
+    width: 100px;
+    height: 1px;
+    background-color: #BB945F;
+    align-items: center;
+    margin-top: 418px;
+    margin-left: 340px;
+    }
+    .desserts-cakes-menu-line-6{
+        position: absolute;
+        z-index: 1;
+    width: 100px;
+    height: 1px;
+    background-color: #BB945F;
+    align-items: center;
+    margin-top: 498px;
+    margin-left: 340px;
+
+    }

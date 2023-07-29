@@ -1,0 +1,91 @@
+.section{
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+    }
+    .line{
+    width: 50px;
+    height: 1px;
+    background-color: #0C0C0E;
+    align-items: center;
+    margin-top: 20px;
+    
+    }
+    h3 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    margin-top: 40px;
+    margin-bottom: 0;
+    }
+    .about{
+        height: 837px;
+    }
+    .about-img{
+        display: flex;
+       justify-content: space-between;
+        margin-left: 20px;
+        margin-top: 18px;
+    }
+    
+    .photo{
+        margin-right: 20px;
+    }
+    .about-ul{
+        
+        border:0; 
+        margin:0; 
+        padding:0
+
+    }
+    .about-li{
+        border:0; 
+        margin-top:40px; 
+        margin-right: 3px;
+        margin-left: 3px;
+        padding:0;
+        list-style:none;
+        display: inline-block;
+        height: 16px;
+        width: 16px;
+        border-radius: 50%;
+        background-color:#0C0C0E;
+        cursor: pointer;
+        transition: all .05s ease-in-out;
+    }
+    .about-li:first-child{
+        background-color: #BB945f;
+    }
+    .about-li:first-child::after{
+        background-color: #0C0C0E;
+    }
+    .about-li:active{
+        background-color: #BB945f;
+
+    }
+    .about-li a{
+        position: absolute;
+        z-index: 1;
+        display: inline-block;
+        background-color: #000;
+        opacity: 0;
+       border-radius: 30%;
+        margin-left: -13px;
+        padding:0;
+        margin-top:-5px; 
+        height: 26px;
+        width: 26px;
+    }
+    
